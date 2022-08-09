@@ -8,8 +8,8 @@ body{
     display: flex;
     flex-direction: row-reverse;
     
-    width: 1200px;
-    margin: 0 auto;
+    width: 100%;
+  
 
 }
 .main-content{
@@ -29,7 +29,7 @@ padding: 20px;
 .about-possition{
 font-style: normal;
 font-weight: bold;
-font-size: 14px;
+font-size: 18px;
 line-height: 17px;
 color: #fff;
 margin-bottom: 20px;
@@ -46,7 +46,7 @@ margin-bottom: 25px;
 .about-description {
 font-style: normal;
 font-weight: normal;
-font-size: 14px;
+font-size: 18px;
 line-height: 24px;
 width: 600px;
 }
@@ -58,7 +58,7 @@ width: 600px;
 .title{
    font-style: normal;
    font-weight: bold;
-   font-size: 22px;
+   font-size: 26px;
    line-height: 27px;
 margin-bottom: 10px;
    color: #000000; 
@@ -70,29 +70,37 @@ margin-bottom: 10px;
 .project-item{
     font-style: normal;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 24px;
     color: #000000;
 }
 .project{
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 24px;
-    color: #595959;
+    color: #111;
 }
 .project-link{
 font-style: normal;
 font-weight: normal;
-font-size: 14px;
+font-size: 18px;
 line-height: 24px;
-color: #595959;
+color: #111;
 margin-left: 15px;
+    }
+    .project-link1{
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 24px;
+color: #111;
+
     }
 .project-bracked{
     font-style: normal;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 24px;
     color: #000000;
 
@@ -105,7 +113,7 @@ margin-left: 15px;
 .work-possition{
     font-style: normal;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 20px;
     color: #000000;
     margin-bottom: 10px;
@@ -113,22 +121,22 @@ margin-left: 15px;
 .organization{
     font-style: normal;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 20px;
-    color: #FB6D3A;
+    color: #111;
 }
 .period{
     font-style: normal;
     font-weight: normal;
-    font-size: 12px;
+    font-size: 16px;
     line-height: 15px;
-    color: #A8A8A8;
+    color: #111;
     margin-bottom: 10px;
 }
 .line{
     font-style: normal;
     font-weight: normal;
-    font-size: 12px;
+    font-size: 16px;
     line-height: 15px;
     color:black
 }
@@ -139,7 +147,7 @@ margin-left: 15px;
 .work-list-item{
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 24px;
     color:black
 }
@@ -154,7 +162,7 @@ margin-left: 15px;
 .education-possition{
     font-style: normal;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 26px;
     line-height: 27px;
     color: #000000;
     margin-bottom: 10px;
@@ -162,15 +170,15 @@ margin-left: 15px;
 .university{
 font-style: normal;
 font-weight: bold;
-font-size: 16px;
+font-size: 20px;
 line-height: 20px;
 margin-bottom: 10px;
-color: #FB6D3A;
+color: #111;
 }
 .profession{
 font-style: normal;
 font-weight: bold;
-font-size: 14px;
+font-size: 18px;
 line-height: 17px;
 margin-bottom: 10px;
 color: #000000;
@@ -189,7 +197,7 @@ color: #000000;
     color: #FFFFFF;
     font-style: normal;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 26px;
     line-height: 27px;
     margin-bottom: 10px;
 }
@@ -205,7 +213,7 @@ color: #000000;
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 24px;
        color: #FFFFFF;
        margin-right: 5px;
@@ -214,9 +222,9 @@ color: #000000;
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 24px;
-    color: #ffffff88;
+    color: #fff;
 }
 .tech-skills-list{
     color: white;
@@ -224,14 +232,12 @@ color: #000000;
     margin-left: 17px;
 }
 .tech-skills-item{
-   color: #FB6D3A;
+   color: #fff;
 }
 .tech-skills-text{
- Font style: Regular Font size: 14px;
-  Line height: 24px;
-   Line height: 141%;
-    Align: Left Vertical;
-     align: Top;
+ font-style: 18px;
+  line-height: 24px;
+  
     color: white;
 }
 .soft-skills-list{
@@ -241,20 +247,20 @@ color: #000000;
 }
 .soft-skills{
     margin-left: 40px;
-    Font family: Montserrat Font; 
-    style: Bold;
-     Font size: 22px;
-      Line height: 27px;
-       Line height: 100%;
+    font-family: Montserrat Font; 
+    font-weight: bold;
+     font-size: 26px;
+      line-height: 27px;
+       line-height: 100%;
         Align: Left Vertical;
          align: Top;
          color: white;
 }
 .soft-skills-item{
-   color: #FB6D3A;
+   color: #fff;
 }
 .soft-skills-text{
-    Font style: Regular Font size: 14px;
+    font-size: 18px;
     Line height: 24px;
     Line height: 141%;
     Align: Left Vertical;
