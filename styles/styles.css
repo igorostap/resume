@@ -133,6 +133,7 @@ color: #111;
     line-height: 15px;
     color: #111;
     margin-bottom: 10px;
+    margin-top: 10px;
 }
 .line{
     font-style: normal;
@@ -182,6 +183,7 @@ font-weight: bold;
 font-size: 18px;
 line-height: 17px;
 margin-bottom: 10px;
+margin-top: 10px;
 color: #000000;
 }
 /* sidebar styles  */
